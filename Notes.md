@@ -1,9 +1,14 @@
+## 2022.3.1
+- Directed Diffusion: 
+    - DD injects attention into the cross-attention maps for directed prompt words to direct the position of the corresponding objects in the early denoising steps [T, T-N]
+    - Strengthen the attention maps of the corresponding additional tokens, and weaken the attention maps of the trailing tokens. 
+- Dreambooth
+    - learn a unique identifier token that can represent the specific input object through reconstruction loss
+    - preserve the model's generalization ability through class preservation loss
+
 
 ## 2022.2.22
-- Today I read 4 papers: Cliport,
-
-#### Cliport
-- This paper proposed a language-conditioned imitation-learning agent that combines the broad semantic understanding (what) of CLIP with the spatial precision (where) of Transporter.
+- Today I Cliport: This paper proposed a language-conditioned imitation-learning agent that combines the broad semantic understanding (what) of CLIP with the spatial precision (where) of Transporter.
     - Solves language-specified tabletop tasks from packingunseen objects to folding cloths
 
 

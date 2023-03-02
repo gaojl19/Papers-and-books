@@ -2,6 +2,11 @@
 
 This repo keeps record of the papers and books/tutorials that I read and learn on a daily basis
 
+## 2023.3.1
+- [x] arxiv 2023, Directed Diffusion: Direct Control of Object Placement through Attention Guidance
+- [x] arxiv 2022, DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation
+
+
 ## 2023.2.22
 - [ ] NeurIPS 2021, Offline reinforcement learning as one big sequence modeling problem
 - [ ] ICML 2022, Planning with diffusion for flexible behavior synthesis
